@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ED84C679-E454-7D5B-F210-F8962959AD58" name="TELEFONO">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-08 22:55:57 UTC</createdTime>
+<generatorID>9C2166C1-5011-330B-DD4B-F4A5715E2816</generatorID>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_TELEFONO" id="B4CDC279-5817-4011-07FE-3924EAD09EC9">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-08 22:55:57 UTC</createdTime>
+<generatorID>FF453530-565B-D54D-72EB-F7092BA01B43</generatorID>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUMERO_TELEFONO" id="B7E28F13-EDE7-D667-9A89-63296FF95CD2">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-08 22:55:57 UTC</createdTime>
+<generatorID>EDBD4D54-523D-F4D7-B051-D13D7441569A</generatorID>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PERSONA_CEDULA" id="F5477ADF-2307-1D29-5E3C-933820C63BFD">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-08 22:55:57 UTC</createdTime>
+<generatorID>6BAFB32A-44D8-ECD1-908E-0536470A5DEA</generatorID>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="759F5B18-E974-1BA4-2954-7C5F155D2A36" referredColumn="3DF16144-4ED0-7E38-5E06-4725C54B0F12"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4587644C-37D9-E2B5-D213-8D57FD9643FA" name="TELEFONO_PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-08 22:55:57 UTC</createdTime>
+<generatorID>44917681-4EA3-BE79-3435-21515FBA042C</generatorID>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B4CDC279-5817-4011-07FE-3924EAD09EC9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="32EAEB98-ACA2-F62A-DEAD-473F8F44C70C" name="TELEFONO_PERSONA_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-08 22:55:57 UTC</createdTime>
+<generatorID>A7895005-0154-29CD-666A-9C0524608FE0</generatorID>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F5477ADF-2307-1D29-5E3C-933820C63BFD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

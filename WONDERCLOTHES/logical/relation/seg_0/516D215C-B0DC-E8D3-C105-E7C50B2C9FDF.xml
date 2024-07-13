@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PEDIDO EMPLEADOS FK" directorySegmentName="seg_0" id="516D215C-B0DC-E8D3-C105-E7C50B2C9FDF">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-08 21:55:38 UTC</createdTime>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<importedID>851F0681-B28A-AB14-9B6A-24D2B44389B8</importedID>
+<engineerTo>
+<item key="2D519FBA-9579-DBDF-BBD7-ECDFD3CD3923" value="true"/>
+</engineerTo>
+<sourcePk>B953F29D-34CB-1ABE-F048-7EEFA85C6A95</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E79B8980-EBD3-FC13-514A-EEEABB1079F5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A63FD746-15D8-54BD-DF73-F2DC9EAAD2F1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B8187E9C-78EC-7E63-84A9-357868BAC0DC" containerWithKeyObject="8F205E72-EA14-AE73-4D03-3F901E7D10D6" localFKIndex="EB003DCF-F40B-108A-F2F0-37A52D258E87" name="PRODUCTO_CASILLERO_FK">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-09-01 22:37:16 UTC</createdTime>
+<generatorID>4F709CE6-0CDE-5248-2850-F3837816E07D</generatorID>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<referredTableLongName>CASILLERO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D6BCBE96-AF5A-4FDA-31FB-47574E660BC9</referredTableID>
+<keyObject>74DD6A0E-D54B-CBCF-8A15-3F780F8E00A6</keyObject>
+<referredKeyID>74DD6A0E-D54B-CBCF-8A15-3F780F8E00A6</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_CASILLERO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

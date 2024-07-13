@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A414CBAA-BDFA-9D3D-7B95-41645CD0170A" name="PROVEEDOR">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-08 22:55:57 UTC</createdTime>
+<generatorID>561FDE28-6897-C151-6C96-18A921420A4E</generatorID>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EMPRESA_VINCULACION" id="E575C396-7677-2C5D-CD34-9216652A9BB6">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-08 22:55:57 UTC</createdTime>
+<generatorID>6A63B58C-364E-C847-DF13-580CB0576F5F</generatorID>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>65 CHAR</dataTypeSize>
+<ownDataTypeParameters>65 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CEDULA" id="E49C2797-468D-FE40-744E-118294B8F81B">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-08 22:55:57 UTC</createdTime>
+<generatorID>77722CEB-9A50-335B-BB1F-C08B46BA3115</generatorID>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CD3CE5BF-9503-0CC5-3F76-4A1403C1262B" referredColumn="3DF16144-4ED0-7E38-5E06-4725C54B0F12"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8F0185CA-D244-C2BF-B6A0-0C9BDC46D585" name="PROVEEDOR_PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-08 22:55:57 UTC</createdTime>
+<generatorID>B953F29D-34CB-1ABE-F048-7EEFA85C6A95</generatorID>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E49C2797-468D-FE40-744E-118294B8F81B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="261D3E6D-74E7-B7A3-C7E0-9ED0E7BC21C8" name="PROVEEDOR_PKv1">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-08 22:55:57 UTC</createdTime>
+<generatorID>EA69E07C-F891-C14E-77FC-4BDCC78CDEE9</generatorID>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="3B329376-25C5-25B9-1E1C-92B62D688200" name="PROVEEDOR_PERSONA_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-08 22:55:57 UTC</createdTime>
+<generatorID>B5D70EF8-9DF0-0C11-930C-023237948BCD</generatorID>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E49C2797-468D-FE40-744E-118294B8F81B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2ECBCEBE-37C3-425E-E8FD-152C75C04D9B" containerWithKeyObject="A83DC12A-71CB-E615-3B0A-C44C941A4775" localFKIndex="8C66A0F6-7980-A2A7-349E-EEE70C3D309E" name="PRENDA_TALLA_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-08 22:55:57 UTC</createdTime>
+<generatorID>A9639C75-82EA-B6EB-8764-0630EE8B3D3E</generatorID>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<referredTableLongName>TALLA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>04896975-0795-5E96-7EC5-DB0070F01669</referredTableID>
+<keyObject>EE7ACF0F-4EF4-F47F-ADAB-F36E6D5E4904</keyObject>
+<referredKeyID>EE7ACF0F-4EF4-F47F-ADAB-F36E6D5E4904</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_talla</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

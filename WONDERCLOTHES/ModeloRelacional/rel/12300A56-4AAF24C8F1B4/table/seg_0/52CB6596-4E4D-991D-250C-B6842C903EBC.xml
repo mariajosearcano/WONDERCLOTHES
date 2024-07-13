@@ -1,0 +1,38 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="52CB6596-4E4D-991D-250C-B6842C903EBC" name="PROVEEDOR">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-11-08 21:40:12 UTC</createdTime>
+<generatorID>F7E719CB-E56D-314F-1474-FB3F51F8606E</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CEDULA" id="33D986A8-397B-6943-758A-DC6FA944D299">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-11-08 21:40:26 UTC</createdTime>
+<generatorID>3DFBCB49-49FA-278C-6381-F0AD4F33A93C</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7C20FDFF-2781-35A4-221C-199C8EA200F3" name="PROVEEDOR_PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-11-08 21:40:26 UTC</createdTime>
+<generatorID>2D73F983-AD53-6BA0-1A53-C43E408A24DE</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="33D986A8-397B-6943-758A-DC6FA944D299"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

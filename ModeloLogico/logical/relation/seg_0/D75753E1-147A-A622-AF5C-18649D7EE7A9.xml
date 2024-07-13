@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_12" directorySegmentName="seg_0" id="D75753E1-147A-A622-AF5C-18649D7EE7A9">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-10-01 02:15:44 UTC</createdTime>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="12300A56-4E10-1B2F-D69E-4AAF24C8F1B4" value="true"/>
+</engineerTo>
+<sourcePk>2D73F983-AD53-6BA0-1A53-C43E408A24DE</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C0D326E4-3FE5-0A2E-3C54-BEF4CA668858</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>64E4B2D7-CB38-1A0E-4390-F70E13FB758A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

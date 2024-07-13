@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F5CC7DE6-7AD4-7982-B8CD-64114AC6D7CD" name="TALLAJES">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-10-01 02:40:37 UTC</createdTime>
+<generatorID>0C3FA3D1-E341-CDA9-7BEF-229B1EA4F2DC</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_GENERO" id="9E165AA6-B381-2616-FAE1-60A8A6217E99">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-10-01 02:40:37 UTC</createdTime>
+<generatorID>EE9F2C30-4BE2-EAC9-03D4-514D7CCB13D4</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GENERO" id="26218C58-0603-EB38-67C7-36B8C1895D0C">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-10-01 02:40:37 UTC</createdTime>
+<generatorID>23469405-FA3E-D66B-E124-6C2BDB7C6C42</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12 CHAR</dataTypeSize>
+<ownDataTypeParameters>12 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_PRENDA" id="A9B8FF81-593A-3CB2-3371-BF43EFF5E67D">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-10-01 02:40:37 UTC</createdTime>
+<generatorID>76FDE73D-AC49-8DCB-3231-B4A588A87E95</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>23 CHAR</dataTypeSize>
+<ownDataTypeParameters>23 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TALLA" id="4AAB1574-ABD4-D856-EC9F-1A76A2874B7A">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-10-01 02:40:37 UTC</createdTime>
+<generatorID>757BAAFD-0A87-249F-90B0-13F59B7D0C84</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>5 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CC87F4F2-9BA6-3D92-200A-20088191B94C" name="TALLAJES_PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-10-01 02:40:37 UTC</createdTime>
+<generatorID>EFC14370-3CDF-BBE3-99E0-1400A9A6AAB4</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9E165AA6-B381-2616-FAE1-60A8A6217E99"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ModeloRelacional" id="3D7D103D-143C-75F2-35EA-8983C9174D09" version="3.5">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-09-01 22:09:41 UTC</createdTime>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>3D7D103D-143C-75F2-35EA-8983C9174D09</designId>
+</OSDM_Design>

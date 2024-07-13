@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E79B8980-EBD3-FC13-514A-EEEABB1079F5" name="EMPLEADOS">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-08 21:55:38 UTC</createdTime>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<importedID>3A1C5476-2307-03A5-3232-6A07BD61EA44</importedID>
+<engineerTo>
+<item key="2D519FBA-9579-DBDF-BBD7-ECDFD3CD3923" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>BB8E7364-AC87-D07F-D909-7F58B4EEBC6A</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="JORNADA" id="FFF94104-CC44-BA35-086D-4139DFA6EF61">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-08 21:55:38 UTC</createdTime>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<importedID>22A35592-AEF9-55E8-948D-FA69014691E3</importedID>
+<engineerTo>
+<item key="2D519FBA-9579-DBDF-BBD7-ECDFD3CD3923" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>8 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

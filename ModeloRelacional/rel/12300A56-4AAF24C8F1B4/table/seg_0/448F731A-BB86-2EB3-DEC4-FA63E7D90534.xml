@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="448F731A-BB86-2EB3-DEC4-FA63E7D90534" name="CASILLERO">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-10-01 02:40:37 UTC</createdTime>
+<generatorID>4487F454-645F-BCA7-EDB7-5BB2C2838D65</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_CASILLERO" id="98BEBB62-BCC9-3732-A1C8-6708C21AAC6C">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-10-01 02:40:37 UTC</createdTime>
+<generatorID>EC04DEAA-2ED6-53AD-9465-CB0BFA40F78A</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STOCK" id="E8C2B0C6-10EA-3330-A669-AA57F77C721E">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-10-01 02:40:37 UTC</createdTime>
+<generatorID>1E784B45-E248-82BD-D7DE-CCFB87540B3B</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FC98F418-4328-F575-26A1-833B82E33582" name="CASILLERO_PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-10-01 02:40:37 UTC</createdTime>
+<generatorID>5CFA1269-E977-4CBB-AAFD-CC447C838B68</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="98BEBB62-BCC9-3732-A1C8-6708C21AAC6C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

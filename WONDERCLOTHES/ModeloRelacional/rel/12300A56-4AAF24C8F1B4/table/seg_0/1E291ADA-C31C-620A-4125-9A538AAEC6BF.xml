@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1E291ADA-C31C-620A-4125-9A538AAEC6BF" name="DEVOLUCIONES">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-11-08 21:40:12 UTC</createdTime>
+<generatorID>D3BE1F63-AA16-6C5E-566B-B7F6D96ABEAC</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TIPO_DEVOLUCION" id="A56B752B-90B2-2D03-5704-7CE65E6CD260">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-11-08 21:40:12 UTC</createdTime>
+<generatorID>79B07150-D009-C871-692D-4D87FC067D3B</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70 CHAR</dataTypeSize>
+<ownDataTypeParameters>70 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CANTIDAD_PRENDAS_DEVOLVER" id="36E5D9BE-E0AF-F6E4-EE81-B0BFE7BAB538">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-11-08 21:40:12 UTC</createdTime>
+<generatorID>E2CFEE23-B67E-3E5A-06AD-47C1BA31FE52</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_DEVOLUCION" id="BCAC4AEE-AEC4-D9E0-EF52-9404176A7C86">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-11-08 21:40:12 UTC</createdTime>
+<generatorID>EE66459C-AAFF-C5FF-3EA9-D4F9353E6790</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_DEVOLUCION" id="794FC723-370B-FA3C-37DA-9B890DDE84DC">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-11-08 21:40:12 UTC</createdTime>
+<generatorID>32CF3A7D-D96B-A01E-CDC0-6299DDD01B5A</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CEDULA" id="21680D2D-BF2E-EFDD-9D3A-7B44D3B15E01">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-11-08 21:40:12 UTC</createdTime>
+<generatorID>B7B21BCF-7A73-3541-396F-D8CD36414EE0</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9C4C2FD7-9150-12CE-BA25-9B675F31C423" name="DEVOLUCIONES_PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-11-08 21:40:12 UTC</createdTime>
+<generatorID>CE54A24B-8E79-A81F-2BD3-0958C45B904B</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="794FC723-370B-FA3C-37DA-9B890DDE84DC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

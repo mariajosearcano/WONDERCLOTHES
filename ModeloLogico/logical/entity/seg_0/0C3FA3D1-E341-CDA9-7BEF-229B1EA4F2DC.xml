@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0C3FA3D1-E341-CDA9-7BEF-229B1EA4F2DC" name="TALLAJES">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-10-01 02:21:42 UTC</createdTime>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="12300A56-4E10-1B2F-D69E-4AAF24C8F1B4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CODIGO_GENERO" id="EE9F2C30-4BE2-EAC9-03D4-514D7CCB13D4">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-10-01 02:21:50 UTC</createdTime>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="12300A56-4E10-1B2F-D69E-4AAF24C8F1B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GENERO" id="23469405-FA3E-D66B-E124-6C2BDB7C6C42">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-10-01 02:22:13 UTC</createdTime>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="12300A56-4E10-1B2F-D69E-4AAF24C8F1B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12 CHAR</dataTypeSize>
+<ownDataTypeParameters>12 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TIPO_PRENDA" id="76FDE73D-AC49-8DCB-3231-B4A588A87E95">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-10-01 02:22:39 UTC</createdTime>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="12300A56-4E10-1B2F-D69E-4AAF24C8F1B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>23 CHAR</dataTypeSize>
+<ownDataTypeParameters>23 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TALLA" id="757BAAFD-0A87-249F-90B0-13F59B7D0C84">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-10-01 02:23:00 UTC</createdTime>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="12300A56-4E10-1B2F-D69E-4AAF24C8F1B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>5 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EFC14370-3CDF-BBE3-99E0-1400A9A6AAB4" name="GENERO PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-10-01 02:22:12 UTC</createdTime>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="12300A56-4E10-1B2F-D69E-4AAF24C8F1B4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EE9F2C30-4BE2-EAC9-03D4-514D7CCB13D4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

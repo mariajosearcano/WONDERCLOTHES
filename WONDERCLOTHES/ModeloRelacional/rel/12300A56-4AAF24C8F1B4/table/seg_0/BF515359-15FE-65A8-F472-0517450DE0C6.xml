@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BF515359-15FE-65A8-F472-0517450DE0C6" name="PRODUCTO">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-11-08 21:40:12 UTC</createdTime>
+<generatorID>9B22776E-D901-8D04-5136-ABA85C35A6BD</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COLOR" id="B6896C49-5221-663F-8CA2-454200FA794C">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-11-08 21:40:12 UTC</createdTime>
+<generatorID>1F63138E-36FF-8DFC-BB22-56A8B6F11799</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRECIO" id="63196A93-FAE9-0065-92D2-150671DC0B79">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-11-08 21:40:12 UTC</createdTime>
+<generatorID>79E6C693-2D0F-BE2D-FC0A-42191D7C2F10</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MARCA" id="1E3EF4C5-843B-5B3A-DEE9-F2E87E62DDBC">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-11-08 21:40:12 UTC</createdTime>
+<generatorID>8ADD7034-2B06-469B-8DF0-4FD02BF6EE3B</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_PRODUCTO" id="6DEF8BA5-53DA-A4E8-4534-585265BD3447">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-11-08 21:40:12 UTC</createdTime>
+<generatorID>CB68E134-320C-503A-10FE-E160840A3AA1</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_PEDIDO" id="56DDC7A5-4B34-73FB-DB01-874DD2DE079B">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-11-08 21:40:12 UTC</createdTime>
+<generatorID>BB9B963D-FFE4-A88F-C93A-658744881C4C</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_CASILLERO" id="88F9168D-8874-3DF2-9633-09CC30EC6E6E">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-11-08 21:40:12 UTC</createdTime>
+<generatorID>A40ACAD3-300C-41F3-5C5C-E960B8C3D762</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B34798F6-C82C-7BE7-17E1-0B073B9030EC" name="PRODUCTO_PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-11-08 21:40:12 UTC</createdTime>
+<generatorID>6DA58DA2-35E2-6B5D-2CFE-8D960257C258</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6DEF8BA5-53DA-A4E8-4534-585265BD3447"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

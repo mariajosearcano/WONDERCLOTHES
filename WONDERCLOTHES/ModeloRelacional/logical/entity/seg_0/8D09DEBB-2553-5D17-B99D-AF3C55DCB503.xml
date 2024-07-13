@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8D09DEBB-2553-5D17-B99D-AF3C55DCB503" name="TALLA">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-11-08 21:17:17 UTC</createdTime>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<engineerTo>
+<item key="12300A56-4E10-1B2F-D69E-4AAF24C8F1B4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_TALLA" id="305A8C03-59FA-1077-7EE0-F911E72A2935">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-11-08 21:17:24 UTC</createdTime>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<engineerTo>
+<item key="12300A56-4E10-1B2F-D69E-4AAF24C8F1B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TALLA" id="AA51A58C-580D-4B0C-18F7-E8DB4D2E1E62">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-11-08 21:17:38 UTC</createdTime>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<engineerTo>
+<item key="12300A56-4E10-1B2F-D69E-4AAF24C8F1B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>5 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8C661AEE-048F-E963-D365-75E1CBDA5C86" name="TALLA PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-11-08 21:17:36 UTC</createdTime>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="12300A56-4E10-1B2F-D69E-4AAF24C8F1B4" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>305A8C03-59FA-1077-7EE0-F911E72A2935</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

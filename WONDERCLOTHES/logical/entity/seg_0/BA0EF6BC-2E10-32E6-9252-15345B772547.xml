@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BA0EF6BC-2E10-32E6-9252-15345B772547" name="DEVOLUCIONES">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-08 21:55:38 UTC</createdTime>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<importedID>D3BE1F63-AA16-6C5E-566B-B7F6D96ABEAC</importedID>
+<engineerTo>
+<item key="DDB0AE4D-C0E2-5AC4-3310-F3DAA8651999" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CODIGO PEDIDO" id="7C460BC6-886D-BA56-DF53-D85CEA202A0B">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-08 21:55:38 UTC</createdTime>
+<generatorID>6F4B4EA4-1C08-B04D-8CC1-49F1E9E73809</generatorID>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<importedID>275F9268-19D0-82C9-F413-3A05FBFC9772</importedID>
+<engineerTo>
+<item key="DDB0AE4D-C0E2-5AC4-3310-F3DAA8651999" value="true"/>
+</engineerTo>
+<referedAttribute>C1EDE959-F479-66E7-7552-4BFA8B636C70</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EMPLEADOS CEDULA1" id="4F5E943B-C707-B168-E494-A43C72BD005D">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-08 21:55:38 UTC</createdTime>
+<generatorID>6F4B4EA4-1C08-B04D-8CC1-49F1E9E73809</generatorID>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<importedID>80AB4A32-984B-A831-5395-92234CDDB07B</importedID>
+<engineerTo>
+<item key="DDB0AE4D-C0E2-5AC4-3310-F3DAA8651999" value="true"/>
+</engineerTo>
+<referedAttribute>412F4A1B-8489-B550-FD95-A2DC40C08AA3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EMPLEADOS CEDULA" id="07C615DC-F27B-7C15-D029-73807A23C2A5">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-08 21:55:38 UTC</createdTime>
+<generatorID>AF443B41-9CB2-B7F5-F2B5-4659AAC4D484</generatorID>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<importedID>8B08965B-1B6B-B185-D0A8-F3E94F216430</importedID>
+<engineerTo>
+<item key="DDB0AE4D-C0E2-5AC4-3310-F3DAA8651999" value="true"/>
+</engineerTo>
+<referedAttribute>77722CEB-9A50-335B-BB1F-C08B46BA3115</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TIPO DEVOLUCION" id="9330ED15-0520-3A1A-98F5-3EC53082A411">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-08 21:55:38 UTC</createdTime>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<importedID>79B07150-D009-C871-692D-4D87FC067D3B</importedID>
+<engineerTo>
+<item key="DDB0AE4D-C0E2-5AC4-3310-F3DAA8651999" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70 CHAR</dataTypeSize>
+<ownDataTypeParameters>70 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CANTIDAD PRENDAS DEVOLVER" id="6814E234-3BA7-FB3D-49CE-73D2F2758510">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-08 21:55:38 UTC</createdTime>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<importedID>E2CFEE23-B67E-3E5A-06AD-47C1BA31FE52</importedID>
+<engineerTo>
+<item key="DDB0AE4D-C0E2-5AC4-3310-F3DAA8651999" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA DEVOLUCION" id="323E8F40-3199-49BC-BAF3-2A80CE214A82">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-08 21:55:38 UTC</createdTime>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<importedID>EE66459C-AAFF-C5FF-3EA9-D4F9353E6790</importedID>
+<engineerTo>
+<item key="DDB0AE4D-C0E2-5AC4-3310-F3DAA8651999" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CODIGO DEVOLUCION" id="95DD986D-034C-7A28-D1CA-679C6C618562">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-08 21:55:38 UTC</createdTime>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<importedID>32CF3A7D-D96B-A01E-CDC0-6299DDD01B5A</importedID>
+<engineerTo>
+<item key="DDB0AE4D-C0E2-5AC4-3310-F3DAA8651999" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6E52633E-C864-6D50-9731-BAA01E4144B8" name="DEVOLUCIONES PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-08 21:55:38 UTC</createdTime>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<importedID>CE54A24B-8E79-A81F-2BD3-0958C45B904B</importedID>
+<engineerTo>
+<item key="DDB0AE4D-C0E2-5AC4-3310-F3DAA8651999" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7C460BC6-886D-BA56-DF53-D85CEA202A0B</attributeRef>
+<attributeRef>4F5E943B-C707-B168-E494-A43C72BD005D</attributeRef>
+<attributeRef>07C615DC-F27B-7C15-D029-73807A23C2A5</attributeRef>
+<attributeRef>95DD986D-034C-7A28-D1CA-679C6C618562</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

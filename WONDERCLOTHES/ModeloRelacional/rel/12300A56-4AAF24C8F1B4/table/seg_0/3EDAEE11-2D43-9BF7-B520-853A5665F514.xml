@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3EDAEE11-2D43-9BF7-B520-853A5665F514" name="PRENDA">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-11-08 21:40:12 UTC</createdTime>
+<generatorID>C1E13954-8E4B-B278-C850-A605250814F6</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PRENDA" id="2381C4DB-7893-0EA2-1519-92544AF7B064">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-11-08 21:40:12 UTC</createdTime>
+<generatorID>A770C934-FA28-FA07-7E48-33BFA6AA66FB</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_PRENDA" id="81A7688C-2D6B-B0D2-50E1-872955A1BE82">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-11-08 21:40:12 UTC</createdTime>
+<generatorID>C6FB94D6-DC1F-9CEF-5F2D-846EAD1164FE</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_TALLA" id="D8F580C5-AD87-9041-70ED-791D68CDEADE">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-11-08 21:40:12 UTC</createdTime>
+<generatorID>86FB80CC-0847-7FE9-9FA5-5DD8F8E2193E</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_GENERO" id="A2B5B810-76BF-4698-B7FA-9D26435B79B9">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-11-08 21:40:12 UTC</createdTime>
+<generatorID>444CEF1C-88A1-BB55-FFC8-4A7493019D89</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_PRODUCTO" id="62185F98-ADCC-4769-A83C-3EA9B1ADB4B6">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-11-08 21:40:12 UTC</createdTime>
+<generatorID>784C759C-B7EE-0B30-56D9-A73B2C4CB049</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="97491694-586B-CB01-10DC-8107452CF3B3" name="PRENDA_PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-11-08 21:40:12 UTC</createdTime>
+<generatorID>21A8543A-ABFC-281D-92C1-BF6BA3676ACE</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2381C4DB-7893-0EA2-1519-92544AF7B064"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

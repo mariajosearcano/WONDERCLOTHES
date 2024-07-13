@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D3BE1F63-AA16-6C5E-566B-B7F6D96ABEAC" name="DEVOLUCIONES">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-09-01 22:10:59 UTC</createdTime>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<engineerTo>
+<item key="12300A56-4E10-1B2F-D69E-4AAF24C8F1B4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="TIPO DEVOLUCION" id="79B07150-D009-C871-692D-4D87FC067D3B">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-09-01 22:34:38 UTC</createdTime>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<engineerTo>
+<item key="12300A56-4E10-1B2F-D69E-4AAF24C8F1B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70 CHAR</dataTypeSize>
+<ownDataTypeParameters>70 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CANTIDAD PRENDAS DEVOLVER" id="E2CFEE23-B67E-3E5A-06AD-47C1BA31FE52">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-09-01 22:34:55 UTC</createdTime>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<engineerTo>
+<item key="12300A56-4E10-1B2F-D69E-4AAF24C8F1B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA DEVOLUCION" id="EE66459C-AAFF-C5FF-3EA9-D4F9353E6790">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-09-01 22:35:44 UTC</createdTime>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<engineerTo>
+<item key="12300A56-4E10-1B2F-D69E-4AAF24C8F1B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CODIGO DEVOLUCION" id="32CF3A7D-D96B-A01E-CDC0-6299DDD01B5A">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-09-01 22:36:18 UTC</createdTime>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<engineerTo>
+<item key="12300A56-4E10-1B2F-D69E-4AAF24C8F1B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CEDULA" id="B7B21BCF-7A73-3541-396F-D8CD36414EE0">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-11-08 21:21:11 UTC</createdTime>
+<generatorID>DCCEBC7B-0798-1BDC-2876-B094697DD2E1</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<engineerTo>
+<item key="12300A56-4E10-1B2F-D69E-4AAF24C8F1B4" value="true"/>
+</engineerTo>
+<referedAttribute>3DFBCB49-49FA-278C-6381-F0AD4F33A93C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CE54A24B-8E79-A81F-2BD3-0958C45B904B" name="DEVOLUCIONES PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-09-01 22:18:21 UTC</createdTime>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="12300A56-4E10-1B2F-D69E-4AAF24C8F1B4" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>32CF3A7D-D96B-A01E-CDC0-6299DDD01B5A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,145 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="26F70CD5-E85F-67AC-3CF9-4F63C7A17386" name="PRODUCTO">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-08 22:55:57 UTC</createdTime>
+<generatorID>0DBAFCAF-ECF0-8A59-2FAD-3A14D9EC8964</generatorID>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PEDIDO_CODIGO_PEDIDO" id="DB4AC4EF-312B-DEBF-EB16-A56AD1B86F34">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-08 22:55:57 UTC</createdTime>
+<generatorID>7D399BD7-DA30-BD3D-29C9-EE149DEBBDB5</generatorID>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3253FC10-6C3F-7237-8202-933577A56B4E" referredColumn="ECBA0FE2-BB58-F710-640D-0C5262F27F84"/>
+</associations>
+</Column>
+<Column name="COLOR" id="4BFD5DBA-F4C1-C725-0357-AE7909F43752">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-08 22:55:57 UTC</createdTime>
+<generatorID>404BF5EC-28E1-A216-03F8-4FF000F82FBF</generatorID>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRECIO" id="0EDCD61C-5CF6-4B5F-14DC-F96DD140805E">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-08 22:55:57 UTC</createdTime>
+<generatorID>25DF6BD9-30AD-8EA4-F63B-1E733E1E28D2</generatorID>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PEDIDO_EMPLEADOS_CEDULA" id="9AA0CA15-7606-D29B-51B2-885846625F9A">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-08 22:55:57 UTC</createdTime>
+<generatorID>63A1AF6F-FB3E-085C-1B5E-9083F72F9593</generatorID>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3253FC10-6C3F-7237-8202-933577A56B4E" referredColumn="0534A24B-BFAE-7E35-E3C8-A0325E731616"/>
+</associations>
+</Column>
+<Column name="MARCA" id="9A9BAEDF-3AC4-A735-DE5A-9A62871F12D0">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-08 22:55:57 UTC</createdTime>
+<generatorID>94B54AB9-1D22-DEEA-69D7-CA98E806A4D7</generatorID>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CASILLERO_CODIGO_CASILLERO" id="669D1B16-E6F2-8D05-015A-6F2485733B30">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-08 22:55:57 UTC</createdTime>
+<generatorID>70F3F155-68EF-9BCD-9082-FE118C3D8818</generatorID>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1F2E9668-5CA4-5C41-5800-D60C7B9286F7" referredColumn="282EFA43-9D35-57B5-5F14-9FFCBBC505A7"/>
+</associations>
+</Column>
+<Column name="CODIGO_PRODUCTO" id="707A5F80-6D9A-1E6F-3CAB-A9D48637F4D0">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-08 22:55:57 UTC</createdTime>
+<generatorID>7513B7A7-6261-F936-3781-A2504BFCADB5</generatorID>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9D017EFC-0260-CD81-DDD7-0F778B17E112" name="PRODUCTO_PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-08 22:55:57 UTC</createdTime>
+<generatorID>51AFB82B-3771-F132-055B-F35EDBBD314F</generatorID>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="707A5F80-6D9A-1E6F-3CAB-A9D48637F4D0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AD2B1B54-1EE5-8726-3B8E-C15BDB86FAF6" name="PRODUCTO_PEDIDO_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-08 22:55:57 UTC</createdTime>
+<generatorID>76C40370-ABDC-AA34-4DEB-41E3FE872B3A</generatorID>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB4AC4EF-312B-DEBF-EB16-A56AD1B86F34"/>
+<colUsage columnID="9AA0CA15-7606-D29B-51B2-885846625F9A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2DEF9CA1-7B04-A294-FBF7-3FDB701CCA05" name="PRODUCTO_CASILLERO_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-08 22:55:57 UTC</createdTime>
+<generatorID>947FF336-3315-E85E-833F-C13080B875AF</generatorID>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="669D1B16-E6F2-8D05-015A-6F2485733B30"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

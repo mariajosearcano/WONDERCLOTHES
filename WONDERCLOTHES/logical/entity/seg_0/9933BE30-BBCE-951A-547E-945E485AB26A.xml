@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9933BE30-BBCE-951A-547E-945E485AB26A" name="GENERO">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-08 22:00:45 UTC</createdTime>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<engineerTo>
+<item key="DDB0AE4D-C0E2-5AC4-3310-F3DAA8651999" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_genero" id="DA2C5C1E-108C-2322-7F5B-B811AAA24E54">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-08 22:00:50 UTC</createdTime>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<engineerTo>
+<item key="DDB0AE4D-C0E2-5AC4-3310-F3DAA8651999" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="genero" id="3B099B9D-E38B-ED4D-1986-B76DC07ACEBF">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-08 22:01:24 UTC</createdTime>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<engineerTo>
+<item key="DDB0AE4D-C0E2-5AC4-3310-F3DAA8651999" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="85355637-7586-7D70-A100-6A27281DAAB2" name="GENERO PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-08 22:01:21 UTC</createdTime>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<engineerTo>
+<item key="DDB0AE4D-C0E2-5AC4-3310-F3DAA8651999" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DA2C5C1E-108C-2322-7F5B-B811AAA24E54</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

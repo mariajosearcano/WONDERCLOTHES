@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0388B4FF-ABC0-1695-BD1D-277CE5C5239C" name="EMPLEADOS">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-10-01 02:40:37 UTC</createdTime>
+<generatorID>3A1C5476-2307-03A5-3232-6A07BD61EA44</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="JORNADA" id="975249E6-9D6B-02A0-1DD0-E5DFE2208ED9">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-10-01 02:40:37 UTC</createdTime>
+<generatorID>22A35592-AEF9-55E8-948D-FA69014691E3</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>8 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CEDULA" id="F20FC41A-725F-C144-FD7D-AFB9D5861BFF">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-10-01 02:40:37 UTC</createdTime>
+<generatorID>3DFBCB49-49FA-278C-6381-F0AD4F33A93C</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="13AEE2E1-D120-A12E-F14A-5A1C0B8122B8" referredColumn="2018DCCD-480E-2E93-1F66-D7F5EA83ABC0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8F905D2C-D6E6-1477-79DF-D5D21BA582A3" name="EMPLEADOS_PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-10-01 02:40:37 UTC</createdTime>
+<generatorID>2D73F983-AD53-6BA0-1A53-C43E408A24DE</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F20FC41A-725F-C144-FD7D-AFB9D5861BFF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BD555A59-BBFE-A574-91DF-4CCC67F1F538" name="EMPLEADOS_PERSONA_FK">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-10-01 02:40:37 UTC</createdTime>
+<generatorID>AFF5F55B-4AF8-3417-6D01-9E963FA68AB2</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F20FC41A-725F-C144-FD7D-AFB9D5861BFF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

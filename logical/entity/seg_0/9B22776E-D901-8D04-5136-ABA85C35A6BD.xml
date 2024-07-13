@@ -1,0 +1,168 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9B22776E-D901-8D04-5136-ABA85C35A6BD" name="PRODUCTO">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-09-01 22:10:40 UTC</createdTime>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<engineerTo>
+<item key="12300A56-4E10-1B2F-D69E-4AAF24C8F1B4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CODIGO_PEDIDO" id="FA9CB72A-0296-CD13-FF35-BE5D20E79863">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-09-01 22:19:42 UTC</createdTime>
+<generatorID>0C3F758E-EB98-E8F1-8F50-567D6C980E23</generatorID>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<engineerTo>
+<item key="12300A56-4E10-1B2F-D69E-4AAF24C8F1B4" value="true"/>
+</engineerTo>
+<referedAttribute>E8E699B1-F733-769F-F077-3792B0C05723</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CODIGO_CASILLERO" id="F1E0AE63-04AA-B205-9264-57CB0E4504C0">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-09-01 22:21:21 UTC</createdTime>
+<generatorID>4F709CE6-0CDE-5248-2850-F3837816E07D</generatorID>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<engineerTo>
+<item key="12300A56-4E10-1B2F-D69E-4AAF24C8F1B4" value="true"/>
+</engineerTo>
+<referedAttribute>EC04DEAA-2ED6-53AD-9465-CB0BFA40F78A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TIPO_PRENDA" id="D74B4A62-9AD1-4808-169B-E97A931E8690">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-09-01 22:22:02 UTC</createdTime>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<engineerTo>
+<item key="12300A56-4E10-1B2F-D69E-4AAF24C8F1B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COLOR" id="1F63138E-36FF-8DFC-BB22-56A8B6F11799">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-09-01 22:22:47 UTC</createdTime>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<engineerTo>
+<item key="12300A56-4E10-1B2F-D69E-4AAF24C8F1B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TALLA" id="1BF04DB8-1330-D523-BE4D-A2317D8406A1">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-09-01 22:23:57 UTC</createdTime>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<engineerTo>
+<item key="12300A56-4E10-1B2F-D69E-4AAF24C8F1B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7 CHAR</dataTypeSize>
+<ownDataTypeParameters>7 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ESTILO" id="60CA4222-6046-3535-B167-4037083B7E69">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-09-01 22:24:18 UTC</createdTime>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<engineerTo>
+<item key="12300A56-4E10-1B2F-D69E-4AAF24C8F1B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PRECIO" id="79E6C693-2D0F-BE2D-FC0A-42191D7C2F10">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-09-01 22:24:41 UTC</createdTime>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<engineerTo>
+<item key="12300A56-4E10-1B2F-D69E-4AAF24C8F1B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GENERO" id="1E6E9D71-02DB-6A40-05A0-32A5AED619E3">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-09-01 22:25:05 UTC</createdTime>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<engineerTo>
+<item key="12300A56-4E10-1B2F-D69E-4AAF24C8F1B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CODIGO_PRODUCTO" id="2BF4A446-D7C2-9698-A9F1-4C834F3E3DFF">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-09-01 22:25:31 UTC</createdTime>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<engineerTo>
+<item key="12300A56-4E10-1B2F-D69E-4AAF24C8F1B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CEDULA" id="3AD81664-D5B8-FD0A-D307-ABDC4B3E5540">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-09-01 22:32:16 UTC</createdTime>
+<generatorID>0C3F758E-EB98-E8F1-8F50-567D6C980E23</generatorID>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<engineerTo>
+<item key="12300A56-4E10-1B2F-D69E-4AAF24C8F1B4" value="true"/>
+</engineerTo>
+<referedAttribute>92BD7AAB-579C-DDD8-11FD-A9D5B39DEB3C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6DA58DA2-35E2-6B5D-2CFE-8D960257C258" name="PRODUCTO PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-09-01 22:26:03 UTC</createdTime>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<engineerTo>
+<item key="12300A56-4E10-1B2F-D69E-4AAF24C8F1B4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2BF4A446-D7C2-9698-A9F1-4C834F3E3DFF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

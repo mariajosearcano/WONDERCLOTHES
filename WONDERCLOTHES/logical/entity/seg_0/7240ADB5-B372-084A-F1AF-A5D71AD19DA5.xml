@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7240ADB5-B372-084A-F1AF-A5D71AD19DA5" name="CASILLERO">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-08 21:55:38 UTC</createdTime>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<importedID>4487F454-645F-BCA7-EDB7-5BB2C2838D65</importedID>
+<engineerTo>
+<item key="DDB0AE4D-C0E2-5AC4-3310-F3DAA8651999" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CODIGO CASILLERO" id="9140C778-660B-DBD0-DA17-6D689190A800">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-08 21:55:38 UTC</createdTime>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<importedID>EC04DEAA-2ED6-53AD-9465-CB0BFA40F78A</importedID>
+<engineerTo>
+<item key="DDB0AE4D-C0E2-5AC4-3310-F3DAA8651999" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="STOCK" id="FDA4D360-C09B-E448-7CE6-BAF66C2F1DD7">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-08 21:55:38 UTC</createdTime>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<importedID>1E784B45-E248-82BD-D7DE-CCFB87540B3B</importedID>
+<engineerTo>
+<item key="DDB0AE4D-C0E2-5AC4-3310-F3DAA8651999" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="585A6499-D851-E427-EB13-C7A0753A05E8" name="CASILLERO PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-08 21:55:38 UTC</createdTime>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<importedID>5CFA1269-E977-4CBB-AAFD-CC447C838B68</importedID>
+<engineerTo>
+<item key="DDB0AE4D-C0E2-5AC4-3310-F3DAA8651999" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9140C778-660B-DBD0-DA17-6D689190A800</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

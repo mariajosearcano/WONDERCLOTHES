@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A614BD49-DB4C-F634-4117-FA43E68F8EEF" name="PROVEEDOR">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-09-01 22:37:16 UTC</createdTime>
+<generatorID>F7E719CB-E56D-314F-1474-FB3F51F8606E</generatorID>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PEDIDO_CODIGO_PEDIDO" id="F852756A-290D-EB84-4FC5-45A2ED5AA70A">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-09-01 22:37:16 UTC</createdTime>
+<generatorID>61086EFC-D4C7-6342-990C-7F2607BF0FA1</generatorID>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C27326D1-7F55-8FFC-2A5F-4B36D048861A" referredColumn="D06F6E69-B876-16D8-1B45-39EC45232342"/>
+</associations>
+</Column>
+<Column name="PEDIDO_CEDULA" id="ABCF0889-07F6-DE6E-DC9D-7C6074EF2BC2">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-09-01 22:37:16 UTC</createdTime>
+<generatorID>04C1CD5E-A0F0-A756-D044-DD23F213DD9E</generatorID>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C27326D1-7F55-8FFC-2A5F-4B36D048861A" referredColumn="28493953-4545-B262-36A5-DA1A88C171BC"/>
+</associations>
+</Column>
+<Column name="EMPRESA_VINCULACION" id="41A320F6-E63B-2E8B-974A-CA4C11DC6F7A">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-09-01 22:37:16 UTC</createdTime>
+<generatorID>C3BF7BEA-5755-30C3-34E0-30F2757027C7</generatorID>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>65 CHAR</dataTypeSize>
+<ownDataTypeParameters>65 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CEDULA" id="7F59A639-BCEF-5971-6E0E-3A9CB792821E">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-09-01 22:37:16 UTC</createdTime>
+<generatorID>3DFBCB49-49FA-278C-6381-F0AD4F33A93C</generatorID>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="89FC26AC-0CF8-3C25-9F9E-11A15D7DD912" referredColumn="A61F26DE-D68F-4C12-FB91-39369EC34B0D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="269FD1E4-164C-2366-4092-8CA1B1BDE005" name="PROVEEDOR_PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-09-01 22:37:16 UTC</createdTime>
+<generatorID>2D73F983-AD53-6BA0-1A53-C43E408A24DE</generatorID>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7F59A639-BCEF-5971-6E0E-3A9CB792821E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F520C60B-24E1-1D74-D7FE-4B79C8141123" name="PROVEEDOR_PKv1">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-09-01 22:37:16 UTC</createdTime>
+<generatorID>8C81CE48-F1F5-C04C-1BB8-4F823A9A4607</generatorID>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F852756A-290D-EB84-4FC5-45A2ED5AA70A"/>
+<colUsage columnID="ABCF0889-07F6-DE6E-DC9D-7C6074EF2BC2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FE0A251C-F4E9-1110-F6CE-69FEB442B372" name="PROVEEDOR_PERSONA_FK">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-09-01 22:37:16 UTC</createdTime>
+<generatorID>9F8A628C-3E11-CF4F-F43A-2829616C1609</generatorID>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7F59A639-BCEF-5971-6E0E-3A9CB792821E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="70111155-7802-A047-05F0-76F0D0B7EBE9" name="PROVEEDOR_PEDIDO_FK">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-09-01 22:37:16 UTC</createdTime>
+<generatorID>0C0FAF49-6198-5BA0-F12C-4E31D0304B89</generatorID>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F852756A-290D-EB84-4FC5-45A2ED5AA70A"/>
+<colUsage columnID="ABCF0889-07F6-DE6E-DC9D-7C6074EF2BC2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

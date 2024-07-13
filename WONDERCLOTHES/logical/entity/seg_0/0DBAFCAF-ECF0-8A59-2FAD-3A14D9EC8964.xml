@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0DBAFCAF-ECF0-8A59-2FAD-3A14D9EC8964" name="PRODUCTO">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-08 21:55:38 UTC</createdTime>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<importedID>9B22776E-D901-8D04-5136-ABA85C35A6BD</importedID>
+<engineerTo>
+<item key="DDB0AE4D-C0E2-5AC4-3310-F3DAA8651999" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PEDIDO CODIGO PEDIDO" id="7D399BD7-DA30-BD3D-29C9-EE149DEBBDB5">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-08 21:55:38 UTC</createdTime>
+<generatorID>76C40370-ABDC-AA34-4DEB-41E3FE872B3A</generatorID>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<importedID>FA9CB72A-0296-CD13-FF35-BE5D20E79863</importedID>
+<engineerTo>
+<item key="DDB0AE4D-C0E2-5AC4-3310-F3DAA8651999" value="true"/>
+</engineerTo>
+<referedAttribute>C1EDE959-F479-66E7-7552-4BFA8B636C70</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COLOR" id="404BF5EC-28E1-A216-03F8-4FF000F82FBF">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-08 21:55:38 UTC</createdTime>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<importedID>1F63138E-36FF-8DFC-BB22-56A8B6F11799</importedID>
+<engineerTo>
+<item key="DDB0AE4D-C0E2-5AC4-3310-F3DAA8651999" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PRECIO" id="25DF6BD9-30AD-8EA4-F63B-1E733E1E28D2">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-08 21:55:38 UTC</createdTime>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<importedID>79E6C693-2D0F-BE2D-FC0A-42191D7C2F10</importedID>
+<engineerTo>
+<item key="DDB0AE4D-C0E2-5AC4-3310-F3DAA8651999" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PEDIDO CEDULA" id="63A1AF6F-FB3E-085C-1B5E-9083F72F9593">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-08 21:55:38 UTC</createdTime>
+<generatorID>76C40370-ABDC-AA34-4DEB-41E3FE872B3A</generatorID>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<importedID>3AD81664-D5B8-FD0A-D307-ABDC4B3E5540</importedID>
+<engineerTo>
+<item key="DDB0AE4D-C0E2-5AC4-3310-F3DAA8651999" value="true"/>
+</engineerTo>
+<referedAttribute>412F4A1B-8489-B550-FD95-A2DC40C08AA3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MARCA" id="94B54AB9-1D22-DEEA-69D7-CA98E806A4D7">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-08 21:55:38 UTC</createdTime>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<importedID>8ADD7034-2B06-469B-8DF0-4FD02BF6EE3B</importedID>
+<engineerTo>
+<item key="DDB0AE4D-C0E2-5AC4-3310-F3DAA8651999" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CODIGO CASILLERO" id="70F3F155-68EF-9BCD-9082-FE118C3D8818">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-08 21:55:38 UTC</createdTime>
+<generatorID>947FF336-3315-E85E-833F-C13080B875AF</generatorID>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<importedID>7340F33A-3436-6152-3BAA-7E7605389E47</importedID>
+<engineerTo>
+<item key="DDB0AE4D-C0E2-5AC4-3310-F3DAA8651999" value="true"/>
+</engineerTo>
+<referedAttribute>9140C778-660B-DBD0-DA17-6D689190A800</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CODIGO_PRODUCTO" id="7513B7A7-6261-F936-3781-A2504BFCADB5">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-08 21:55:38 UTC</createdTime>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<importedID>CB68E134-320C-503A-10FE-E160840A3AA1</importedID>
+<engineerTo>
+<item key="DDB0AE4D-C0E2-5AC4-3310-F3DAA8651999" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="51AFB82B-3771-F132-055B-F35EDBBD314F" name="PRODUCTO PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-08 21:55:38 UTC</createdTime>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<importedID>6DA58DA2-35E2-6B5D-2CFE-8D960257C258</importedID>
+<engineerTo>
+<item key="DDB0AE4D-C0E2-5AC4-3310-F3DAA8651999" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7513B7A7-6261-F936-3781-A2504BFCADB5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

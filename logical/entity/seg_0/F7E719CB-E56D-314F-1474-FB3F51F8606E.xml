@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F7E719CB-E56D-314F-1474-FB3F51F8606E" name="PROVEEDOR">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-09-01 22:10:48 UTC</createdTime>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<engineerTo>
+<item key="12300A56-4E10-1B2F-D69E-4AAF24C8F1B4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>C0D326E4-3FE5-0A2E-3C54-BEF4CA668858</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CODIGO_PEDIDO" id="61086EFC-D4C7-6342-990C-7F2607BF0FA1">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-09-01 22:19:42 UTC</createdTime>
+<generatorID>0C0FAF49-6198-5BA0-F12C-4E31D0304B89</generatorID>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<engineerTo>
+<item key="12300A56-4E10-1B2F-D69E-4AAF24C8F1B4" value="true"/>
+</engineerTo>
+<referedAttribute>E8E699B1-F733-769F-F077-3792B0C05723</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CEDULA" id="04C1CD5E-A0F0-A756-D044-DD23F213DD9E">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-09-01 22:32:16 UTC</createdTime>
+<generatorID>0C0FAF49-6198-5BA0-F12C-4E31D0304B89</generatorID>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<engineerTo>
+<item key="12300A56-4E10-1B2F-D69E-4AAF24C8F1B4" value="true"/>
+</engineerTo>
+<referedAttribute>92BD7AAB-579C-DDD8-11FD-A9D5B39DEB3C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EMPRESA_VINCULACION" id="C3BF7BEA-5755-30C3-34E0-30F2757027C7">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-09-01 22:33:28 UTC</createdTime>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<engineerTo>
+<item key="12300A56-4E10-1B2F-D69E-4AAF24C8F1B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>65 CHAR</dataTypeSize>
+<ownDataTypeParameters>65 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8C81CE48-F1F5-C04C-1BB8-4F823A9A4607" name="PROVEEDOR PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-09-01 22:18:21 UTC</createdTime>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<engineerTo>
+<item key="12300A56-4E10-1B2F-D69E-4AAF24C8F1B4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>61086EFC-D4C7-6342-990C-7F2607BF0FA1</attributeRef>
+<attributeRef>04C1CD5E-A0F0-A756-D044-DD23F213DD9E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

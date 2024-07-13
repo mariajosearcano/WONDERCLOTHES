@@ -1,0 +1,147 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5C8A82C0-F02A-2550-C6E8-462889587B1F" name="DEVOLUCIONES">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-08 22:55:57 UTC</createdTime>
+<generatorID>BA0EF6BC-2E10-32E6-9252-15345B772547</generatorID>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PEDIDO_CODIGO_PEDIDO" id="31D6B5D8-C0D8-7D72-1198-A9827FF38B2E">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-08 22:55:57 UTC</createdTime>
+<generatorID>7C460BC6-886D-BA56-DF53-D85CEA202A0B</generatorID>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D89021F3-C3A6-9DBB-0800-319F2FB544C4" referredColumn="ECBA0FE2-BB58-F710-640D-0C5262F27F84"/>
+</associations>
+</Column>
+<Column name="PEDIDO_EMPLEADOS_CEDULA" id="14D2BBA9-D6C1-4BA2-3100-BAA02D517E26">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-08 22:55:57 UTC</createdTime>
+<generatorID>4F5E943B-C707-B168-E494-A43C72BD005D</generatorID>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D89021F3-C3A6-9DBB-0800-319F2FB544C4" referredColumn="0534A24B-BFAE-7E35-E3C8-A0325E731616"/>
+</associations>
+</Column>
+<Column name="EMPLEADOS_CEDULA" id="078999A7-B620-1FBD-239D-2D05EE916FB0">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-08 22:55:57 UTC</createdTime>
+<generatorID>07C615DC-F27B-7C15-D029-73807A23C2A5</generatorID>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1AA9D8A2-7611-085C-4442-319BF7BAD974" referredColumn="77150FC4-5149-94F3-4BD2-3FB1602BE548"/>
+</associations>
+</Column>
+<Column name="TIPO_DEVOLUCION" id="FBF0B434-3BCF-427C-40AD-0D6C966ABFA8">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-08 22:55:57 UTC</createdTime>
+<generatorID>9330ED15-0520-3A1A-98F5-3EC53082A411</generatorID>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70 CHAR</dataTypeSize>
+<ownDataTypeParameters>70 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CANTIDAD_PRENDAS_DEVOLVER" id="EBCB7DBF-5094-78B2-CFBA-DA41CFBED6BE">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-08 22:55:57 UTC</createdTime>
+<generatorID>6814E234-3BA7-FB3D-49CE-73D2F2758510</generatorID>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_DEVOLUCION" id="A752BBF8-1A07-C9B8-82D1-A1061B709D04">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-08 22:55:57 UTC</createdTime>
+<generatorID>323E8F40-3199-49BC-BAF3-2A80CE214A82</generatorID>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_DEVOLUCION" id="26E47D00-C86B-3E1A-7DF4-648823A0B507">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-08 22:55:57 UTC</createdTime>
+<generatorID>95DD986D-034C-7A28-D1CA-679C6C618562</generatorID>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E01DF106-D118-3893-01AD-D96E97237CEE" name="DEVOLUCIONES_PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-08 22:55:57 UTC</createdTime>
+<generatorID>6E52633E-C864-6D50-9731-BAA01E4144B8</generatorID>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="31D6B5D8-C0D8-7D72-1198-A9827FF38B2E"/>
+<colUsage columnID="14D2BBA9-D6C1-4BA2-3100-BAA02D517E26"/>
+<colUsage columnID="078999A7-B620-1FBD-239D-2D05EE916FB0"/>
+<colUsage columnID="26E47D00-C86B-3E1A-7DF4-648823A0B507"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0F82CF1E-E643-5F4C-D6BF-7F6C9DB18E60" name="DEVOLUCIONES_EMPLEADOS_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-08 22:55:57 UTC</createdTime>
+<generatorID>AF443B41-9CB2-B7F5-F2B5-4659AAC4D484</generatorID>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="078999A7-B620-1FBD-239D-2D05EE916FB0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2779376A-A4E7-8E2C-B724-E48BEB34ACBE" name="DEVOLUCIONES_PEDIDO_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-08 22:55:57 UTC</createdTime>
+<generatorID>6F4B4EA4-1C08-B04D-8CC1-49F1E9E73809</generatorID>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="31D6B5D8-C0D8-7D72-1198-A9827FF38B2E"/>
+<colUsage columnID="14D2BBA9-D6C1-4BA2-3100-BAA02D517E26"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

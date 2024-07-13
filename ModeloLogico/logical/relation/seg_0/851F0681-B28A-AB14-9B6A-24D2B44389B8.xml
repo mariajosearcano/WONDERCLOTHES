@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PEDIDO EMPLEADOS FK" directorySegmentName="seg_0" id="851F0681-B28A-AB14-9B6A-24D2B44389B8">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-09-01 22:14:29 UTC</createdTime>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="12300A56-4E10-1B2F-D69E-4AAF24C8F1B4" value="true"/>
+</engineerTo>
+<sourcePk>2D73F983-AD53-6BA0-1A53-C43E408A24DE</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3A1C5476-2307-03A5-3232-6A07BD61EA44</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BBE6518D-6A76-EFAB-5C91-11FDADFB6BEA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

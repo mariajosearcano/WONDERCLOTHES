@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A1BE1B22-10D7-9CE5-8591-56EFD05D468D" containerWithKeyObject="A83DC12A-71CB-E615-3B0A-C44C941A4775" localFKIndex="51439B1C-F078-2B0C-B30B-91D9EE721F4B" name="PRENDA_GENERO_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-08 22:55:57 UTC</createdTime>
+<generatorID>2459EFD4-F55A-9761-F53C-0BDF5352AC75</generatorID>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<referredTableLongName>GENERO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7DC46EAE-9D1D-DF14-059F-8E9999420C8D</referredTableID>
+<keyObject>94D2F272-116E-B919-960D-2D8737DF1E39</keyObject>
+<referredKeyID>94D2F272-116E-B919-960D-2D8737DF1E39</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_genero</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="DEVOLUCIONES PEDIDO FK" directorySegmentName="seg_0" id="6F4B4EA4-1C08-B04D-8CC1-49F1E9E73809">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-08 21:55:38 UTC</createdTime>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<importedID>02D74A85-F27D-9824-6C41-34796554612F</importedID>
+<engineerTo>
+<item key="2D519FBA-9579-DBDF-BBD7-ECDFD3CD3923" value="true"/>
+</engineerTo>
+<sourcePk>99F729F3-82ED-B869-CC29-8B3987359492</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A63FD746-15D8-54BD-DF73-F2DC9EAAD2F1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BA0EF6BC-2E10-32E6-9252-15345B772547</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

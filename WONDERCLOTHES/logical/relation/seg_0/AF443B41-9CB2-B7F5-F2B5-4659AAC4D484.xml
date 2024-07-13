@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="DEVOLUCIONES EMPLEADOS FK" directorySegmentName="seg_0" id="AF443B41-9CB2-B7F5-F2B5-4659AAC4D484">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-08 21:55:38 UTC</createdTime>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<importedID>3CD858F8-FC3A-E816-2DB5-9C6A7C33F865</importedID>
+<engineerTo>
+<item key="2D519FBA-9579-DBDF-BBD7-ECDFD3CD3923" value="true"/>
+</engineerTo>
+<sourcePk>B953F29D-34CB-1ABE-F048-7EEFA85C6A95</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E79B8980-EBD3-FC13-514A-EEEABB1079F5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BA0EF6BC-2E10-32E6-9252-15345B772547</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

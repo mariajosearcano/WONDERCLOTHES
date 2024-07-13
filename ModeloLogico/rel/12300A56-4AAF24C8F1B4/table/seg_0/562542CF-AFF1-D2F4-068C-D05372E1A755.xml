@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="562542CF-AFF1-D2F4-068C-D05372E1A755" name="PRODUCTO-GENERO">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-10-01 02:40:37 UTC</createdTime>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<ordsAlias>relation_14</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PRODUCTO_CODIGO_PRODUCTO" id="AE432A8C-4906-67E9-8954-0658DB8FECA5">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-10-01 02:40:37 UTC</createdTime>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A8D09C88-55D5-4731-AC2A-376E2DFD8312" referredColumn="A7FC8ACC-792B-5DD4-6F8B-1D0710081AA3"/>
+</associations>
+</Column>
+<Column name="TALLAJES_CODIGO_GENERO" id="9F48CC2C-8BFB-6F2D-D096-83D8CF950213">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-10-01 02:40:37 UTC</createdTime>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1068974A-64F4-6F2B-026F-A129A652612B" referredColumn="9E165AA6-B381-2616-FAE1-60A8A6217E99"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C17F5FAC-DA97-6392-501C-7BC68F71D181" name="Relation_14_PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-10-01 02:40:37 UTC</createdTime>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AE432A8C-4906-67E9-8954-0658DB8FECA5"/>
+<colUsage columnID="9F48CC2C-8BFB-6F2D-D096-83D8CF950213"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D26C3C7A-AFF9-F2DB-E8B9-B1BFC7EF6E02" name="Relation_14_PRODUCTO_FK">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-10-01 02:40:37 UTC</createdTime>
+<generatorID>DF531FDB-F0EB-817D-3557-7606D22448A1</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AE432A8C-4906-67E9-8954-0658DB8FECA5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="98E2D4D6-FC0C-CCBA-0FEF-8790BE49AFF7" name="Relation_14_TALLAJES_FK">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-10-01 02:40:37 UTC</createdTime>
+<generatorID>DF531FDB-F0EB-817D-3557-7606D22448A1</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9F48CC2C-8BFB-6F2D-D096-83D8CF950213"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

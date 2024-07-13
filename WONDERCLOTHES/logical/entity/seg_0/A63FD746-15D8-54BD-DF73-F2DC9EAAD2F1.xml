@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A63FD746-15D8-54BD-DF73-F2DC9EAAD2F1" name="PEDIDO">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-08 21:55:38 UTC</createdTime>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<importedID>BBE6518D-6A76-EFAB-5C91-11FDADFB6BEA</importedID>
+<engineerTo>
+<item key="DDB0AE4D-C0E2-5AC4-3310-F3DAA8651999" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CANTIDAD" id="DEB34F6D-4A72-FBC6-6004-F80FE05DCC82">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-08 21:55:38 UTC</createdTime>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<importedID>4D18DE8E-FC63-3153-6A5D-DF353F4C8532</importedID>
+<engineerTo>
+<item key="DDB0AE4D-C0E2-5AC4-3310-F3DAA8651999" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CODIGO PEDIDO" id="C1EDE959-F479-66E7-7552-4BFA8B636C70">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-08 21:55:38 UTC</createdTime>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<importedID>E8E699B1-F733-769F-F077-3792B0C05723</importedID>
+<engineerTo>
+<item key="DDB0AE4D-C0E2-5AC4-3310-F3DAA8651999" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA_PEDIDO" id="67ED1BB2-9B36-F528-537A-FC36C9842D30">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-08 21:55:38 UTC</createdTime>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<importedID>0C5D3466-2895-C527-048A-40219F20EC3F</importedID>
+<engineerTo>
+<item key="DDB0AE4D-C0E2-5AC4-3310-F3DAA8651999" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EMPLEADOS CEDULA" id="412F4A1B-8489-B550-FD95-A2DC40C08AA3">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-08 21:55:38 UTC</createdTime>
+<generatorID>516D215C-B0DC-E8D3-C105-E7C50B2C9FDF</generatorID>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<importedID>92BD7AAB-579C-DDD8-11FD-A9D5B39DEB3C</importedID>
+<engineerTo>
+<item key="DDB0AE4D-C0E2-5AC4-3310-F3DAA8651999" value="true"/>
+</engineerTo>
+<referedAttribute>77722CEB-9A50-335B-BB1F-C08B46BA3115</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA_ENTREGA" id="0F4487A4-4BC6-25F3-2303-E1D4F75CAA1B">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-08 21:55:38 UTC</createdTime>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<importedID>CB3E45EB-779D-82AB-23C7-076292D15494</importedID>
+<engineerTo>
+<item key="DDB0AE4D-C0E2-5AC4-3310-F3DAA8651999" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="99F729F3-82ED-B869-CC29-8B3987359492" name="PEDIDO PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-08 21:55:38 UTC</createdTime>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<importedID>5600C705-8F99-23F1-55BF-4EE0F92FD18E</importedID>
+<engineerTo>
+<item key="DDB0AE4D-C0E2-5AC4-3310-F3DAA8651999" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C1EDE959-F479-66E7-7552-4BFA8B636C70</attributeRef>
+<attributeRef>412F4A1B-8489-B550-FD95-A2DC40C08AA3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

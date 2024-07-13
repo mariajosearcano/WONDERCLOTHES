@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2F48B227-703E-EA95-73F1-6B464DB473F3" name="PROVEEDOR">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-10-01 02:40:37 UTC</createdTime>
+<generatorID>F7E719CB-E56D-314F-1474-FB3F51F8606E</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PEDIDO_CODIGO_PEDIDO" id="A7A7BCED-0457-71A3-EC5A-1E9E980A80C8">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-10-01 02:40:37 UTC</createdTime>
+<generatorID>61086EFC-D4C7-6342-990C-7F2607BF0FA1</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9195FA0A-81C5-02FE-BBD6-B66C857B0C48" referredColumn="B57A682B-F94C-D82A-A986-0ED6FBA28152"/>
+</associations>
+</Column>
+<Column name="PEDIDO_EMPLEADOS_CEDULA" id="A0A3DB0F-28AD-54DD-862B-16E41C805A6A">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-10-01 02:40:37 UTC</createdTime>
+<generatorID>04C1CD5E-A0F0-A756-D044-DD23F213DD9E</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9195FA0A-81C5-02FE-BBD6-B66C857B0C48" referredColumn="94C0760C-541E-77C6-8D56-0ED35E7954DA"/>
+</associations>
+</Column>
+<Column name="EMPRESA_VINCULACION" id="CE6B986A-48C5-029B-4F84-E7A34891B209">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-10-01 02:40:37 UTC</createdTime>
+<generatorID>C3BF7BEA-5755-30C3-34E0-30F2757027C7</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>65 CHAR</dataTypeSize>
+<ownDataTypeParameters>65 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CEDULA" id="40E8724E-F3E7-A084-F16A-5571BE85D2A8">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-10-01 02:40:37 UTC</createdTime>
+<generatorID>3DFBCB49-49FA-278C-6381-F0AD4F33A93C</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3A245964-37AC-AF58-0342-48D5F58B864E" referredColumn="2018DCCD-480E-2E93-1F66-D7F5EA83ABC0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D7AEC110-7543-1CAB-EA92-36FFF9B27EB3" name="PROVEEDOR_PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-10-01 02:40:37 UTC</createdTime>
+<generatorID>2D73F983-AD53-6BA0-1A53-C43E408A24DE</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="40E8724E-F3E7-A084-F16A-5571BE85D2A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C6DE5A33-4028-8441-BDE5-3764699A1FAE" name="PROVEEDOR_PKv1">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-10-01 02:40:37 UTC</createdTime>
+<generatorID>8C81CE48-F1F5-C04C-1BB8-4F823A9A4607</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A7A7BCED-0457-71A3-EC5A-1E9E980A80C8"/>
+<colUsage columnID="A0A3DB0F-28AD-54DD-862B-16E41C805A6A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3C603296-16C8-10A4-90C8-2DF748E39BDE" name="PROVEEDOR_PERSONA_FK">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-10-01 02:40:37 UTC</createdTime>
+<generatorID>9F8A628C-3E11-CF4F-F43A-2829616C1609</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="40E8724E-F3E7-A084-F16A-5571BE85D2A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="80D14FCE-9EF8-ED03-95F7-070E1E212E23" name="PROVEEDOR_PEDIDO_FK">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-10-01 02:40:37 UTC</createdTime>
+<generatorID>0C0FAF49-6198-5BA0-F12C-4E31D0304B89</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A7A7BCED-0457-71A3-EC5A-1E9E980A80C8"/>
+<colUsage columnID="A0A3DB0F-28AD-54DD-862B-16E41C805A6A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,146 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C3EB10B6-3235-C187-B1B7-A6D73ECC755E" name="DEVOLUCIONES">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-10-01 02:40:37 UTC</createdTime>
+<generatorID>D3BE1F63-AA16-6C5E-566B-B7F6D96ABEAC</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PEDIDO_CODIGO_PEDIDO" id="E13F2AB9-2FB3-8F7B-176D-782E51B49A13">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-10-01 02:40:37 UTC</createdTime>
+<generatorID>275F9268-19D0-82C9-F413-3A05FBFC9772</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F61CE402-A494-4EDC-1000-4C5FC63349A6" referredColumn="B57A682B-F94C-D82A-A986-0ED6FBA28152"/>
+</associations>
+</Column>
+<Column name="PEDIDO_EMPLEADOS_CEDULA" id="6D21CBB7-2166-7EDF-C208-FEA2DAA33795">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-10-01 02:40:37 UTC</createdTime>
+<generatorID>80AB4A32-984B-A831-5395-92234CDDB07B</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F61CE402-A494-4EDC-1000-4C5FC63349A6" referredColumn="94C0760C-541E-77C6-8D56-0ED35E7954DA"/>
+</associations>
+</Column>
+<Column name="EMPLEADOS_CEDULA" id="487156E7-B9D2-04FC-0E72-A165B13DAA27">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-10-01 02:40:37 UTC</createdTime>
+<generatorID>8B08965B-1B6B-B185-D0A8-F3E94F216430</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0E524BF2-C525-1920-520D-27382A7AD8C8" referredColumn="F20FC41A-725F-C144-FD7D-AFB9D5861BFF"/>
+</associations>
+</Column>
+<Column name="TIPO_DEVOLUCION" id="DAAEE210-BFF3-4C41-1B05-A6205B8D17A5">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-10-01 02:40:37 UTC</createdTime>
+<generatorID>79B07150-D009-C871-692D-4D87FC067D3B</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70 CHAR</dataTypeSize>
+<ownDataTypeParameters>70 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CANTIDAD_PRENDAS_DEVOLVER" id="E175E549-1189-68D3-10F8-2CC5B7A6CA88">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-10-01 02:40:37 UTC</createdTime>
+<generatorID>E2CFEE23-B67E-3E5A-06AD-47C1BA31FE52</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_DEVOLUCION" id="CAE37F85-372F-FEAD-9BE5-48F6ED46B43F">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-10-01 02:40:37 UTC</createdTime>
+<generatorID>EE66459C-AAFF-C5FF-3EA9-D4F9353E6790</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_DEVOLUCION" id="D04D2461-F6D1-E011-4B96-A1F6C2C7057A">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-10-01 02:40:37 UTC</createdTime>
+<generatorID>32CF3A7D-D96B-A01E-CDC0-6299DDD01B5A</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D86F60CE-370F-2790-3F7D-357DB3D4310F" name="DEVOLUCIONES_PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-10-01 02:40:37 UTC</createdTime>
+<generatorID>CE54A24B-8E79-A81F-2BD3-0958C45B904B</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E13F2AB9-2FB3-8F7B-176D-782E51B49A13"/>
+<colUsage columnID="6D21CBB7-2166-7EDF-C208-FEA2DAA33795"/>
+<colUsage columnID="487156E7-B9D2-04FC-0E72-A165B13DAA27"/>
+<colUsage columnID="D04D2461-F6D1-E011-4B96-A1F6C2C7057A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5B6C3B2E-FD1D-FE86-BAF7-E1F5B7C8AAD7" name="DEVOLUCIONES_EMPLEADOS_FK">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-10-01 02:40:37 UTC</createdTime>
+<generatorID>3CD858F8-FC3A-E816-2DB5-9C6A7C33F865</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="487156E7-B9D2-04FC-0E72-A165B13DAA27"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FBDE84E8-A8E6-9BB5-2B83-7A1B656DC0A0" name="DEVOLUCIONES_PEDIDO_FK">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-10-01 02:40:37 UTC</createdTime>
+<generatorID>02D74A85-F27D-9824-6C41-34796554612F</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E13F2AB9-2FB3-8F7B-176D-782E51B49A13"/>
+<colUsage columnID="6D21CBB7-2166-7EDF-C208-FEA2DAA33795"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

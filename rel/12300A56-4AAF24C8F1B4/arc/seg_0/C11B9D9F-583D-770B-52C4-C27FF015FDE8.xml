@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="C11B9D9F-583D-770B-52C4-C27FF015FDE8" name="FKArc_1">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-09-01 22:37:16 UTC</createdTime>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<mandatory>false</mandatory>
+<reverseArc>true</reverseArc>
+<table>3894D452-ED6D-342F-6F17-0E0EA77D03BD</table>
+<fkeys>
+<fkeyID>6DA52442-AD52-1B18-A8E8-3389A9BEA5D7</fkeyID>
+<fkeyID>89FC26AC-0CF8-3C25-9F9E-11A15D7DD912</fkeyID>
+</fkeys>
+</FKArc>

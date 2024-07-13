@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7EA0CAEE-49AF-6423-155B-139E126580AC" name="PRENDA">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-08 21:57:14 UTC</createdTime>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<engineerTo>
+<item key="DDB0AE4D-C0E2-5AC4-3310-F3DAA8651999" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_prenda" id="7E020C64-8067-F363-C3F6-9BA4EC0847DF">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-08 21:57:27 UTC</createdTime>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<engineerTo>
+<item key="DDB0AE4D-C0E2-5AC4-3310-F3DAA8651999" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_prenda" id="03ACC9DA-CF3D-2964-EE8E-FDE4472EEB1F">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-08 21:59:10 UTC</createdTime>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<engineerTo>
+<item key="DDB0AE4D-C0E2-5AC4-3310-F3DAA8651999" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_genero" id="EDA9449E-7C5A-4997-E665-AA00D43147E4">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-08 22:07:40 UTC</createdTime>
+<generatorID>2459EFD4-F55A-9761-F53C-0BDF5352AC75</generatorID>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<engineerTo>
+<item key="DDB0AE4D-C0E2-5AC4-3310-F3DAA8651999" value="true"/>
+</engineerTo>
+<referedAttribute>DA2C5C1E-108C-2322-7F5B-B811AAA24E54</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_talla" id="D09786B0-07F9-3207-BDC1-1AAB355E67BC">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-08 22:07:48 UTC</createdTime>
+<generatorID>A9639C75-82EA-B6EB-8764-0630EE8B3D3E</generatorID>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<engineerTo>
+<item key="DDB0AE4D-C0E2-5AC4-3310-F3DAA8651999" value="true"/>
+</engineerTo>
+<referedAttribute>BE730E24-1186-7A60-6D8F-7DE4336EA16C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CODIGO_PRODUCTO" id="1805100F-53F0-7AC7-347F-6B1DCDBBB127">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-08 22:07:58 UTC</createdTime>
+<generatorID>C1E8CEB6-7434-F8EF-8B94-23CA69B66FCB</generatorID>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<engineerTo>
+<item key="DDB0AE4D-C0E2-5AC4-3310-F3DAA8651999" value="true"/>
+</engineerTo>
+<referedAttribute>7513B7A7-6261-F936-3781-A2504BFCADB5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="788D54E3-9DF7-3F45-9A16-6E07F09588E2" name="PRENDA PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-08 21:59:03 UTC</createdTime>
+<ownerDesignName>WONDERCLOTHES</ownerDesignName>
+<engineerTo>
+<item key="DDB0AE4D-C0E2-5AC4-3310-F3DAA8651999" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7E020C64-8067-F363-C3F6-9BA4EC0847DF</attributeRef>
+<attributeRef>EDA9449E-7C5A-4997-E665-AA00D43147E4</attributeRef>
+<attributeRef>D09786B0-07F9-3207-BDC1-1AAB355E67BC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

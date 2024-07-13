@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C1E13954-8E4B-B278-C850-A605250814F6" name="PRENDA">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-11-08 21:16:16 UTC</createdTime>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<engineerTo>
+<item key="12300A56-4E10-1B2F-D69E-4AAF24C8F1B4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_PRENDA" id="A770C934-FA28-FA07-7E48-33BFA6AA66FB">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-11-08 21:16:23 UTC</createdTime>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<engineerTo>
+<item key="12300A56-4E10-1B2F-D69E-4AAF24C8F1B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TIPO_PRENDA" id="C6FB94D6-DC1F-9CEF-5F2D-846EAD1164FE">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-11-08 21:16:47 UTC</createdTime>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<engineerTo>
+<item key="12300A56-4E10-1B2F-D69E-4AAF24C8F1B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_TALLA" id="86FB80CC-0847-7FE9-9FA5-5DD8F8E2193E">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-11-08 21:19:02 UTC</createdTime>
+<generatorID>FB5487EA-E1ED-513C-78B5-F4EF8427A677</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<engineerTo>
+<item key="12300A56-4E10-1B2F-D69E-4AAF24C8F1B4" value="true"/>
+</engineerTo>
+<referedAttribute>305A8C03-59FA-1077-7EE0-F911E72A2935</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_GENERO" id="444CEF1C-88A1-BB55-FFC8-4A7493019D89">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-11-08 21:19:17 UTC</createdTime>
+<generatorID>43A6A2B7-C8E9-F787-FB30-A41D7896E744</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<engineerTo>
+<item key="12300A56-4E10-1B2F-D69E-4AAF24C8F1B4" value="true"/>
+</engineerTo>
+<referedAttribute>53289958-8989-A33C-7B1C-FF36CF98700C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CODIGO_PRODUCTO" id="784C759C-B7EE-0B30-56D9-A73B2C4CB049">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-11-08 21:23:56 UTC</createdTime>
+<generatorID>611839C6-60DA-BF42-5999-B126F45542D4</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<engineerTo>
+<item key="12300A56-4E10-1B2F-D69E-4AAF24C8F1B4" value="true"/>
+</engineerTo>
+<referedAttribute>CB68E134-320C-503A-10FE-E160840A3AA1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="21A8543A-ABFC-281D-92C1-BF6BA3676ACE" name="PRENDA PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-11-08 21:16:45 UTC</createdTime>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="12300A56-4E10-1B2F-D69E-4AAF24C8F1B4" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A770C934-FA28-FA07-7E48-33BFA6AA66FB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
